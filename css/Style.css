@@ -1,0 +1,244 @@
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700);
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
+@font-face {
+	font-family: "Arturo Trial";
+	src: url("../fonts/ArturoTrial-Regular.woff2") format("woff2") url("../fonts/ArturoTrial-Regular.woff")
+		format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Arturo Trial";
+	src: url("../fonts/ArturoTrial-LightItalic.woff2") format("woff2") url("../fonts/ArturoTrial-LightItalic.woff")
+		format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Pragmatica Slab";
+	src: url("../fonts/PragmaticaSlab-Bold.woff2") format("woff2") url("../fonts/PragmaticaSlab-Bold.woff")
+		format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+body {
+	max-width: 810px;
+	margin: 0px auto;
+	font-family: "Lato", sans-serif;
+	color: #424551;
+	line-height: 1.6;
+}
+.header {
+	margin: 0px 0px 118px;
+}
+
+.title {
+	margin: 0px 0px 92px 0px;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1e212c;
+}
+.img {
+	margin: 0px 0px 60px;
+}
+
+.text-1 {
+	margin: 0px 0px 24px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+}
+.text-2 {
+	margin: 0px 0px 35px;
+}
+.text-2-1 {
+	margin: 0px 0px 48px;
+}
+.text-3 {
+	margin: 0px 0px 48px 58px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+}
+.text-4 {
+	margin: 0px 0px 24px;
+}
+li {
+	margin: 0px 0px 4px;
+}
+.list {
+	margin: 0px 0px 24px;
+	padding-left: 32px;
+}
+.text-5 {
+	margin: 0px 0px 60px;
+}
+.article {
+	font-size: 80px;
+	font-weight: 900;
+	color: red;
+}
+/* ============================================= */
+
+.body {
+	max-width: 810px;
+	margin: 0px auto;
+	line-height: 1.5;
+	text-align: justify;
+}
+.title-a {
+	color: violet;
+	font-family: Lobster, cursive;
+	margin: 60px 0px;
+	letter-spacing: 15px;
+	text-transform: capitalize;
+	text-shadow: 10px 10px 1px black;
+	font-size: 150px;
+}
+.list-1 {
+	font-family: Neucha, cursive;
+	font-size: 30px;
+}
+
+.item-1 {
+	font-style: italic;
+	text-decoration: underline;
+	color: blue;
+	margin-bottom: 4px;
+}
+.item-2 {
+	margin: 0px 0px 4px 50px;
+	font-style: oblique;
+	text-decoration: underline;
+	color: green;
+}
+.item-3 {
+	font-style: italic;
+	text-decoration: underline;
+	color: darkorange;
+	margin-bottom: 4px;
+}
+.item-4 {
+	margin: 0px 0px 4px 50px;
+	font-style: oblique;
+	text-decoration: underline;
+	color: darkmagenta;
+}
+.subtitle-1 {
+	color: blue;
+	font-family: Oswald, sens-serif;
+	font-size: 25px;
+	text-align: right;
+	margin-bottom: 30px;
+}
+
+.subtitle-1 + p {
+	font-family: "Arturo Trial", fantasy;
+	font-weight: 300;
+	font-style: italic;
+	color: crimson;
+	text-decoration: overline;
+	margin: 0px 0px 30px;
+}
+
+.img-1 {
+	margin: 0px 100px 30px;
+}
+.subtitle-2 {
+	font-family: "Arturo Trial", fantasy;
+	font-style: italic;
+	color: green;
+	text-align: center;
+	font-family: Oswald, sens-serif;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+.subtitle-2 + p {
+	font-family: Oswald, sens-serif;
+	font-size: 40px;
+	color: dimgrey;
+	margin-bottom: 30px;
+}
+.text-1-a {
+	font-family: Lobster;
+	font-weight: 700;
+	font-size: 40px;
+	color: black;
+	padding: 20px;
+}
+
+.text-2-a {
+	color: blueviolet;
+	text-decoration: line-through;
+	text-align: center;
+	margin-bottom: 35px;
+}
+.text-3-a {
+	font-family: Comforter, cursive;
+	font-size: 300%;
+}
+.subtitle-3 {
+	font-size: 50px;
+	text-transform: uppercase;
+	text-shadow: -20px 4px 5px yellow, 10px 4px 5px green;
+}
+
+.text-3-3 {
+	font-weight: 900;
+	text-decoration: overline;
+}
+.types-cards {
+	font-weight: 900;
+}
+.list-3 {
+	font-family: Comforter, cursive;
+	font-size: 45px;
+	text-align: right;
+}
+.cartochki {
+	width: 810px;
+}
+
+.subtitle-4 {
+	font-family: Lobster, cursive;
+	text-align: center;
+	font-size: 50px;
+}
+.text-4-4 {
+	max-height: 100px;
+	overflow: scroll;
+}
+.list-5 {
+	color: deeppink;
+	height: 20%;
+	text-align: right;
+}
+.text-5-5 {
+	color: firebrick;
+	font-family: "Pragmatica Slab", serif;
+	font-weight: 700;
+}
+.list-6 {
+	font-family: Comforter, cursive;
+	font-size: 30px;
+}
+
+.text-5-5 > p {
+	margin-bottom: 30px;
+}
